@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const images = [
     // Paysages existants
-    { src: 'https://img.freepik.com/photos-gratuite/belle-photo-maison-pres-du-lac-mont-ojstrica-bled-slovenie_181624-11390.jpg', category: 'Paysage', predefinedScore: 10 },
-    { src: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://img.freepik.com/photos-gratuite/belle-photo-maison-pres-du-lac-mont-ojstrica-bled-slovenie_181624-11390.jpg', category: 'Paysage', predefinedScore: 9.5 },
+    { src: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c', category: 'Nourriture', predefinedScore: 8 },
     { src: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e', category: 'Paysage', predefinedScore: 9 },
     { src: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38', category: 'Nourriture', predefinedScore: 8 },
         { src: 'https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/27223922/creme-glacee-sans-sorbetiere.jpeg', category: 'Nourriture', predefinedScore: 9 },
