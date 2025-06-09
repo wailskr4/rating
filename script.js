@@ -22,10 +22,10 @@ const images = [
     { src: 'https://gourmandiseassia.fr/wp-content/uploads/2019/11/Picsart_22-12-05_23-25-30-149-810x810.jpg', category: 'Nourriture', predefinedScore: 10 },
 
     // 🌯 Tacos
-    { src: 'https://media.allinsmart.com/deal/1c6582c9aabd_30-de-rduction-partir-1000eur-dachat.png?h=400&fit=crop', category: 'Nourriture', predefinedScore: 8 },
+    { src: 'https://media.allinsmart.com/deal/1c6582c9aabd_30-de-rduction-partir-1000eur-dachat.png?h=400&fit=crop', category: 'Nourriture', predefinedScore: 9 },
 
     // 🍰 Macaron
-    { src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG', category: 'Nourriture', predefinedScore: 7 },
+    { src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG', category: 'Nourriture', predefinedScore: 9 },
 
     // 🥣 Hrira (illustration d'une soupe marocaine/algérienne)
     { src: 'https://www.auxdelicesdupalais.net/wp-content/uploads/2020/05/harira-soupe-alg%C3%A9roise.jpg.webp', category: 'Nourriture', predefinedScore: 9 },
@@ -33,13 +33,13 @@ const images = [
      { src: 'https://www.okvoyage.com/wp-content/uploads/2022/09/les-plus-beaux-paysages-despagne-1536x1062.jpg', category: 'Paysage', predefinedScore: 10 },
 
   // 🏞️ Norvège – forêt et montagnes (automne)
-  { src: 'https://www.okvoyage.com/wp-content/uploads/2020/04/norvege-1536x1023.jpg', category: 'Paysage', predefinedScore: 8 },
+  { src: 'https://www.okvoyage.com/wp-content/uploads/2020/04/norvege-1536x1023.jpg', category: 'Paysage', predefinedScore: 9 },
 
   // 🌉 Constantine, Algérie – vue de la ville suspendue
   { src: 'https://www.elmoudjahid.com/storage/images/article/cad95c8f24ff45adfcda7d0cfef78608.jpg', category: 'Paysage', predefinedScore: 9 },
 
   // 🌅 Pays‑Bas – dune ou parc au coucher de soleil
-  { src: 'https://static.wixstatic.com/media/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg/v1/fill/w_938,h_717,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg', category: 'Paysage', predefinedScore: 8 },
+  { src: 'https://static.wixstatic.com/media/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg/v1/fill/w_938,h_717,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg', category: 'Paysage', predefinedScore: 8.5 },
 
   // 🌲 Turquie – forêt de montagne
   { src: 'https://www.terdav.com/Content/img/mag/vignettes/grande/1552.jpg', category: 'Paysage', predefinedScore: 9 },
