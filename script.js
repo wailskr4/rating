@@ -2,47 +2,47 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const images = [
     // Paysages existants
-    { src: 'https://img.freepik.com/photos-gratuite/belle-photo-maison-pres-du-lac-mont-ojstrica-bled-slovenie_181624-11390.jpg', category: 'Paysage', predefinedScore: 9.5 },
-    { src: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c', category: 'Nourriture', predefinedScore: 8 },
-    { src: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e', category: 'Paysage', predefinedScore: 9 },
-    { src: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38', category: 'Nourriture', predefinedScore: 8 },
-        { src: 'https://cdn.pratico-pratiques.com/app/uploads/sites/2/2018/08/27223922/creme-glacee-sans-sorbetiere.jpeg', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', category: 'Paysage', predefinedScore: 8.5 },
+    { src: 'https://images.unsplash.com/photo-1557409518-691ebcd96038?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://tlemcen.mta.gov.dz/wp-content/uploads/sites/8/2022/01/tlemcen-telecabine-algerie-1-1400x1011-1.jpg', category: 'Paysage', predefinedScore: 10 },
+    { src: 'https://www.oldelpaso.fr/-/media/project/gmi/oldelpaso/oldelpaso-fr/oepp/nri/tacos-de-boeuf-facon-birria-mexicaine-hero.png?h=320&iar=0&w=480&rev=a663805fddd94a5d8e0a17a594f8a002&hash=F8C3E3319E2ED859A01BF9F7AF653DC5', category: 'Nourriture', predefinedScore: 9 },
+        { src: 'https://fac.img.pmdstatic.net/scale/https.3A.2F.2Ffac.2Eimg.2Epmdstatic.2Enet.2Ffit.2Fhttp.2E3A.2E2F.2E2Fprd2-bone-image.2E2Es3-website-eu-west-1.2E2Eamazonaws.2E2Ecom.2E2Ffac.2E2F2019.2E2F09.2E2F19.2E2Fdaf7cf46-7099-41d2-83de-3b6ae513b873.2E2Ejpeg.2F650x365.2Fquality.2F80.2Fthumbnail.2Ejpg/650xauto/quality/80/crop-from/center/picture.jpeg', category: 'Nourriture', predefinedScore: 8.5 },
         
-                { src: 'https://www.hervecuisine.com/wp-content/uploads/2015/10/brownies-1118x516.jpg.webp', category: 'Nourriture', predefinedScore: 10 },
-        
-        
+                { src: 'https://fac.img.pmdstatic.net/fit/~1~fac~2022~03~25~8d9afbe0-2084-47f8-855f-bb4f6825acdd.jpeg/850x478/quality/90/crop-from/center/focus-point/1377%2C636/cookies-tout-chocolat.jpeg', category: 'Nourriture', predefinedScore: 8.5 },
         
         
-    { src: 'https://www.okvoyage.com/wp-content/uploads/2023/11/les-paysages-du-japon-1536x1026.jpg', category: 'Paysage', predefinedScore: 10 },
+        
+        
+    { src: 'https://previews.123rf.com/images/luckybusiness/luckybusiness1506/luckybusiness150600257/41805626-the-view-from-the-airplane-window-to-the-ground-dotted-with-rivers.jpg', category: 'Paysage', predefinedScore: 9 },
 
     // 🍔 Hamburger
-    { src: 'https://images.unsplash.com/photo-1550547660-d9450f859349', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://www.simpleetgourmand.fr/wp-content/uploads/berkoukes_01.jpg', category: 'Nourriture', predefinedScore: 7.5 },
 
     // 🍲 Chekhchoukha (image illustrative type plat algérien)
-    { src: 'https://gourmandiseassia.fr/wp-content/uploads/2019/11/Picsart_22-12-05_23-25-30-149-810x810.jpg', category: 'Nourriture', predefinedScore: 10 },
+    { src: 'https://cdn.alweb.com/thumbs/maghrebkitchen/article/fit727x484/%D9%88%D8%B5%D9%81%D8%A9-%D8%AD%D8%B1%D9%8A%D8%B1%D8%A9-%D9%88%D9%87%D8%B1%D8%A7%D9%86%D9%8A%D8%A9.jpg', category: 'Nourriture', predefinedScore: 9.5 },
 
     // 🌯 Tacos
-    { src: 'https://media.allinsmart.com/deal/1c6582c9aabd_30-de-rduction-partir-1000eur-dachat.png?h=400&fit=crop', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://huiles-et-olives.fr/wp-content/uploads/2024/08/huiles-et-olives-dorage-grillee-citron-ail-thym-romarin.jpg', category: 'Nourriture', predefinedScore: 9.5 },
 
     // 🍰 Macaron
-    { src: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://cache.marieclaire.fr/data/photo/w1000_ci/5h/saute-de-legumes-a-l-indonesienne.webp', category: 'Nourriture', predefinedScore: 9 },
 
     // 🥣 Hrira (illustration d'une soupe marocaine/algérienne)
-    { src: 'https://www.auxdelicesdupalais.net/wp-content/uploads/2020/05/harira-soupe-alg%C3%A9roise.jpg.webp', category: 'Nourriture', predefinedScore: 9 },
+    { src: 'https://img-3.journaldesfemmes.fr/6oqO_pwejtqVj9d-2AQOUsGddEE=/1240x/smart/e2384d1c32d444528e8ec0881c4d632d/ccmcms-jdf/27162578.jpg', category: 'Nourriture', predefinedScore: 9 },
     
-     { src: 'https://www.okvoyage.com/wp-content/uploads/2022/09/les-plus-beaux-paysages-despagne-1536x1062.jpg', category: 'Paysage', predefinedScore: 10 },
+     { src: 'https://www.largus.fr/images/styles/max_1300x1300/public/2024-10/BMW-M5-2024-G90-verte-reveal-constructeur-020_4.jpg?itok=0zKEklmb', category: 'Paysage', predefinedScore: 10 },
 
   // 🏞️ Norvège – forêt et montagnes (automne)
-  { src: 'https://www.okvoyage.com/wp-content/uploads/2020/04/norvege-1536x1023.jpg', category: 'Paysage', predefinedScore: 9 },
+  { src: 'https://image.made-in-china.com/155f0j00jKAofGuRChkl/New-Dongfeng-Forthing-T5-Evo-Petrol-Car-SUV-1-5-Shiny-Version.webp', category: 'Paysage', predefinedScore: 9.5 },
 
   // 🌉 Constantine, Algérie – vue de la ville suspendue
-  { src: 'https://www.elmoudjahid.com/storage/images/article/cad95c8f24ff45adfcda7d0cfef78608.jpg', category: 'Paysage', predefinedScore: 9 },
+  { src: 'https://cdn.tourismetvoyages.dz/wp-content/uploads/2022/09/PLAGE-SKIKDA.jpg', category: 'Paysage', predefinedScore: 9.5 },
 
   // 🌅 Pays‑Bas – dune ou parc au coucher de soleil
-  { src: 'https://static.wixstatic.com/media/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg/v1/fill/w_938,h_717,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/108ff4_aab3f4e4c3614f68b7582ec68afeedd3~mv2.jpg', category: 'Paysage', predefinedScore: 8.5 },
+  { src: 'https://lelocalapizzas.fr/wp-content/uploads/2022/02/recette-pizza-4-saisons.jpg', category: 'Paysage', predefinedScore: 10 },
 
   // 🌲 Turquie – forêt de montagne
-  { src: 'https://www.terdav.com/Content/img/mag/vignettes/grande/1552.jpg', category: 'Paysage', predefinedScore: 9 },
+  { src: 'https://cache.marieclaire.fr/data/photo/w1000_ci/1bi/conchiglioni-farcis-au-veau.webp', category: 'Paysage', predefinedScore: 8 },
 ];
 
 
